@@ -1,0 +1,15 @@
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.csproj.AssemblyReference.cache
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.GeneratedMSBuildEditorConfig.editorconfig
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.AssemblyInfoInputs.cache
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.AssemblyInfo.cs
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.csproj.CoreCompileInputs.cache
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\bin\Debug\net6.0\Homework11082022.exe
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\bin\Debug\net6.0\Homework11082022.deps.json
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\bin\Debug\net6.0\Homework11082022.runtimeconfig.json
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\bin\Debug\net6.0\Homework11082022.dll
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\bin\Debug\net6.0\Homework11082022.pdb
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.dll
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\refint\Homework11082022.dll
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.pdb
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\Homework11082022.genruntimeconfig.cache
+F:\Beetroot.Net\Lesson_6\Homework11082022\Homework11082022\obj\Debug\net6.0\ref\Homework11082022.dll
