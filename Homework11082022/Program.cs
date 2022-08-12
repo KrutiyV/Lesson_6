@@ -1,8 +1,8 @@
 ﻿using System;
 
-class SelectionSorting
+class Homework
 {
-    static void sort(int[] arr)
+    static void SelectionSort(int[] arr)
     {
         int n = arr.Length;
 
@@ -10,100 +10,73 @@ class SelectionSorting
         {
             int min_idx = i;
             for (int j = i + 1; j < n; j++)
+            {
                 if (arr[j] < arr[min_idx])
+                {
                     min_idx = j;
-
+                }
+            }
             int temp = arr[min_idx];
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
     }
-
-    static void printArray(int[] arr)
+    static void PrintArray(int[] arr)
     {
         int n = arr.Length;
         for (int i = 0; i < n; ++i)
-            Console.Write(arr[i] + " ");
-        Console.WriteLine();
-    }
-
-    public static void Main()
-    {
-        int[] arr = { 64, 25, 12, 22, 11 };
-        sort(arr);
-        Console.WriteLine("Sorted array");
-        printArray(arr);
-    }
-
-}
-
-
-class BubbleSorting
-{
-    static void bubbleSort(int[] arr)
-    {
-        int n = arr.Length;
-        for (int i = 0; i < n - 1; i++)
-            for (int j = 0; j < n - i - 1; j++)
-                if (arr[j] > arr[j + 1])
-                {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                }
-    }
-
-    static void printArray(int[] arr)
-    {
-        int n = arr.Length;
-        for (int i = 0; i < n; ++i)
-            Console.Write(arr[i] + " ");
-        Console.WriteLine();
-    }
-
-    public static void Main()
-    {
-        int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
-        bubbleSort(arr);
-        Console.WriteLine("Sorted array");
-        printArray(arr);
-    }
-}
-
-class InsertionSort
-{
-
-    void sort(int[] arr)
-    {
-        int n = arr.Length;
-        for (int i = 1; i < n; ++i)
         {
-            int key = arr[i];
-            int j = i - 1;
-
-            while (j >= 0 && arr[j] > key)
-            {
-                arr[j + 1] = arr[j];
-                j = j - 1;
-            }
-            arr[j + 1] = key;
+            Console.Write(arr[i] + " ");
+        }
+        Console.WriteLine();
+    }
+    static void BubbleSort(int[] arr1)
+    {
+        int n = arr1.Length;
+        for (int i = 0; i < n - 1; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+                if (arr1[j] > arr1[j + 1])
+                {
+                    int temp = arr1[j];
+                    arr1[j] = arr1[j + 1];
+                    arr1[j + 1] = temp;
+                }
         }
     }
-
-    static void printArray(int[] arr)
+    static void InsertionSort(int[] arr2)
     {
-        int n = arr.Length;
-        for (int i = 0; i < n; ++i)
-            Console.Write(arr[i] + " ");
+        int n = arr2.Length;
+        for (int i = 1; i < n; ++i)
+        {
+            int key = arr2[i];
+            int j = i - 1;
 
-        Console.Write("\n");
+            while (j >= 0 && arr2[j] > key)
+            {
+                arr2[j + 1] = arr2[j];
+                j = j - 1;
+            }
+            arr2[j + 1] = key;
+        }
     }
-
     public static void Main()
     {
-        int[] arr = { 12, 11, 13, 5, 6 };
-        InsertionSort ob = new InsertionSort();
-        ob.sort(arr);
-        printArray(arr);
+        int[] arr1 = { 64, 24, 11, 21, 10 };
+        int[] arr2 = { 63, 33, 24, 11, 89 };
+        int[] arr3 = { 11, 10, 12, 4, 5 };
+
+        SelectionSort(arr1);
+        BubbleSort(arr2);
+        InsertionSort(arr3);
+
+        Console.WriteLine("Selection Sort");
+        PrintArray(arr1);
+        Console.WriteLine("Bubble Sort");
+        PrintArray(arr2);
+        Console.WriteLine("Insertion Sort");
+        PrintArray(arr3);
+
     }
+
 }
